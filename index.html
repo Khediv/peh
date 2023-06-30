@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Penjadwalan Aktivitas Fisik</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+    <style>
+        #stopwatch {
+            font-size: 24px;
+            margin-top: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h3>Penjadwalan Aktivitas Fisik</h3>
+        
+        <div class="form-group">
+            <label for="senin">Senin:</label>
+            <input type="number" id="senin" class="form-control" placeholder="Aktivitas Senin (menit)">
+        </div>
+
+        <div class="form-group">
+            <label for="selasa">Selasa:</label>
+            <input type="number" id="selasa" class="form-control" placeholder="Aktivitas Selasa (menit)">
+        </div>
+
+        <div class="form-group">
+            <label for="rabu">Rabu:</label>
+            <input type="number" id="rabu" class="form-control" placeholder="Aktivitas Rabu (menit)">
+        </div>
+
+        <div class="form-group">
+            <label for="kamis">Kamis:</label>
+            <input type="number" id="kamis" class="form-control" placeholder="Aktivitas Kamis (menit)">
+        </div>
+
+        <div class="form-group">
+            <label for="jumat">Jumat:</label>
+            <input type="number" id="jumat" class="form-control" placeholder="Aktivitas Jumat (menit)">
+        </div>
+
+        <div class="form-group">
+            <label for="sabtu">Sabtu:</label>
+            <input type="number" id="sabtu" class="form-control" placeholder="Aktivitas Sabtu (menit)">
+        </div>
+
+        <div class="form-group">
+            <label for="minggu">Minggu:</label>
+            <input type="number" id="minggu" class="form-control" placeholder="Aktivitas Minggu (menit)">
+        </div>
+
+        <div class="form-group">
+            <label for="alarmTime">Pilih Jam Alarm:</label>
+            <input type="time" id="alarmTime" class="form-control">
+        </div>
+
+        <button class="btn btn-primary" onclick="hitungTotal()">Hitung Total</button>
+
+        <div class="mt-3" id="total"></div>
+
+        <div class="mt-3">
+            <h5>Move Tracking:</h5>
+            <p id="location"></p>
+        </div>
+
+        <div class="mt-3">
+            <button class="btn btn-primary" onclick="startTracking()">Mulai Move Tracking</button>
+            <p id="stopwatch"></p>
+        </div>
+
+        <div class="mt-3">
+            <button class="btn btn-primary" onclick="takePhoto()">Ambil Foto</button>
+        </div>
+
+        <script>
+            function hitungTotal() {
+                // Logika untuk menghitung total aktivitas fisik
+            }
+
+            function startTracking() {
+                // Logika untuk memulai move tracking
+            }
+
+            function takePhoto() {
+                // Logika untuk mengambil foto
+            }
